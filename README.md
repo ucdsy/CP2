@@ -14,5 +14,8 @@ g++ 6 $ brew install gcc6<br />
 Java 8 $ brew update; brew tap caskroom/cask; brew install Caskroom/cask/java<br />
 
 To run the data ingestion, ran command python3 run.py, this will download the DBLP data in to src/data path.<br />
+To run the data EDA, ran command python3 run.py with eda in the target(argument), this will ouput and save the eda figures.<br />
+To view the experiment notebook, open the notebook in notebooks file.
+The report is in overlearf
 
-To ruun the data EDA, ran command python3 run.py with eda in the target(argument), this will ouput and save the eda figures.
+
