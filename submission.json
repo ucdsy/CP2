@@ -3,5 +3,5 @@
     "build": "run.py", 
     "library": ["src"], 
     "notebook": ["notebooks/result.ipynb","notebooks/DSC180A+CP2.ipynb"], 
-    "targets": ["data", "analysis"]
+    "targets": ["data", "eda"]
 }
