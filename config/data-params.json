@@ -1,0 +1,3 @@
+{   
+    "command": "bash ./data_ingestion.sh"
+}
