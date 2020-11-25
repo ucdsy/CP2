@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+print("The code needs to be run on python3.6+. If you meet any ImportError, please try python3 run.py test")
 
 import sys
 import subprocess
@@ -17,11 +18,11 @@ def main(targets):
         mydir_tmp = mydir + "//src" # add the testA folder name
         mydir_new = os.chdir(mydir_tmp) # change the current working directory
         mydir = os.getcwd() #
-        
         output=etl.run_cmd_shell(data_cfg['command'])
         return output   
     if 'eda' in targets:
-
+        eda.generate_stats('eda', **eda_config)
+    if 'test' in targets:
         eda.generate_stats('test', **eda_config)
         
         
